@@ -1,0 +1,12 @@
+#port
+server:
+  port: 8080
+
+spring:
+  application:
+    name: jwttest
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: jwt
